@@ -1,0 +1,25 @@
+# For all text files set the eol to be unix flavor
+* text=auto
+
+# Explicitly declare text files you want to always be converted to unix flavor
+*.java text eol=LF
+*.xml text eol=LF
+*.sql text eol=LF
+*.properties text eol=LF
+*.as text eol=LF
+*.mxml text eol=LF
+*.js text eol=LF
+*.html text eol=LF
+*.css text eol=LF
+gradlew text eol=LF
+build.* text eol=LF
+
+# For Windows specific files set the line ending to be CRLF
+*.bat text eol=CRLF
+
+# Denote all files that are truly binary and should not be modified.
+*.png binary
+*.jpg binary
+*.gif binary
+*.jar binary
+
